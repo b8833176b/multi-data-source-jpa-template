@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    primary:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://47.94.103.77:3306/gyw?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+      username: root
+      password:
+ # jpa:
+ #     hibernate:
+ #       ddl-auto: update
+ #     show-sql: true
+ #   jackson:
+ #     date-format: yyyy-MM-dd HH:mm:ss
+ #     time-zone: UTC
+    secondary:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@192.168.30.21:1521:HANMI
+      username: srm
+      password: srm
